@@ -1,0 +1,234 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+}
+
+.menu .menu-item {
+    list-style-type: none;
+}
+
+.menu .menu-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    padding: 13px 70px;
+}
+
+.menu {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu-link {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu-item {
+    border-right: 2px dotted black;
+    padding-right: 38px;
+}
+
+.subheader  {
+    position: absolute;
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 87px;
+    background-color: rgba(0, 0, 0, .6);
+    
+}
+
+.row .text-official {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.row .call {
+    margin-top: 17px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.row .phone-number {
+    margin-top: 3px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.row .logo-img {
+    margin-top: 15px;
+}
+
+.row .text-official {
+    margin-top: 2px;
+}
+
+.row .button {
+    margin-top: 21px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-color: rgb(122, 231, 231);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo-text {
+    min-height: 800px;
+    background: url("../img/bg/uber_bg.jpg") center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo-text .promo-header {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo-text .promo-subheader {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo-text .promo-descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.promo-text .promo-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-color: rgb(122, 231, 231);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+
+.reasons .container {
+    min-height: 850px;
+    display: block;
+    margin: 0 auto;
+}
+
+.reasons .row {
+    padding-left: 90px;
+}
+
+.reasons .label {
+        display: block;
+        margin: 0 auto;
+        width: 115px;
+        height: 28px;
+        background-color: #000;
+        margin-top: 15px;
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        color: #FFFFFF;
+}
+
+.reasons .header-reasons {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 35px;
+}
+
+.row .round-reasons {
+    display: inline-block;
+    margin-top: 40px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+
+.row .in-round {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.row .descr-icon {
+    max-height: 151px;
+    width: 371px;
+}
+
+.row .descr-reasons {
+    height: 151px;
+    width: 350px;
+    margin: -127px 150px 0 150px;
+}
+
+.row .tittle-reasons {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.row .text-reasons {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
